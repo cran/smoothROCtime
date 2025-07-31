@@ -1,16 +1,20 @@
 Package: smoothROCtime
 Type: Package
 Title: Smooth Time-Dependent ROC Curve Estimation
-Version: 0.1.0
-Author: Susana Diaz-Coto <UO266718@uniovi.es>
-Maintainer: Susana Diaz-Coto <UO266718@uniovi.es>
-Imports: ks
-Suggests: KMsurv,lattice, survival
+Version: 0.1.1
+Authors@R: person(given = "Susana", 
+                  family = "Diaz-Coto",
+                  role = c("aut", "cre"),
+                  email = "susanacoto@gmail.com")
 Description: Computes smooth estimations for the Cumulative/Dynamic and Incident/Dynamic ROC curves, in presence of right censorship, based on the bivariate kernel density estimation of the joint distribution function of the Marker and Time-to-event variables.
 License: GPL
-LazyData: TRUE
-RoxygenNote: 6.0.1
+Encoding: UTF-8
+Imports: ks
+Suggests: KMsurv,lattice, survival
+RoxygenNote: 7.3.1
 NeedsCompilation: no
-Packaged: 2018-11-03 02:20:09 UTC; SUSANA
+Packaged: 2025-07-31 20:52:27 UTC; SCoto
+Author: Susana Diaz-Coto [aut, cre]
+Maintainer: Susana Diaz-Coto <susanacoto@gmail.com>
 Repository: CRAN
-Date/Publication: 2018-11-14 10:40:03 UTC
+Date/Publication: 2025-07-31 23:20:02 UTC

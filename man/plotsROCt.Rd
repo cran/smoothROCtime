@@ -18,7 +18,7 @@ Plots of both Cumulative and Incident/Dynamic ROC curve estimations, provided by
   \item{ylab}{a tittle for the y axis. The default value is "True - Negative Rate".}
   \item{type}{what type of plot is going to be drawn. The default value is "l" and a line will be plotted.}
   \item{lwd}{line width. As a default value "5" is taken.}
-  \item{...}{\link{plot} function arguments can also be used for customizing the plot.}
+  \item{...}{\code{plot} function arguments can also be used for customizing the plot.}
 }
 
 \details{

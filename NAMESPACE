@@ -12,4 +12,3 @@ S3method(stRoc, default)
 
 S3method(plot,sROCt)
 
-
